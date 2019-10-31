@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_hjFJsPuFEemP5shpoGE8XQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_vkkHcPuFEemP5shpoGE8XQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_zUq8APuFEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.partdescriptor.simpleviewcallerpavlik" label="Simple View Caller Pavlik" iconURI="platform:/plugin/project-ex-1029-caller-Pavlik/icons/sample.png" contributionURI="bundleclass://project-ex-1029-caller-Pavlik/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_6-l6wPuFEemP5shpoGE8XQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_9umkQPuFEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.command.simplesearchenginecaller" commandName="Simple Search Engine Caller"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__N_6cPuFEemP5shpoGE8XQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_BQO38PuGEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.handler.0" contributionURI="bundleclass://project-ex-1029-caller-Pavlik/handler.HandlerSearchMethodCaller" command="_9umkQPuFEemP5shpoGE8XQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Ir_e4PuGEemP5shpoGE8XQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_LRYMwPuGEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_N1w1EPuGEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_TNsjEPuGEemP5shpoGE8XQ" elementId="project-ex-1029-caller-pavlik.handledmenuitem.findmethodcallers" label="Find Method Callers" command="_9umkQPuFEemP5shpoGE8XQ"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
